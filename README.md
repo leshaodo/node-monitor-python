@@ -4,15 +4,15 @@ A distributed systems simulation built in Python demonstrating real-world disast
 
 ## Features
 - Async heartbeat monitoring of multiple nodes simultaneously
-- Automatic failover — promotes backup nodes when primaries fail
+- Automatic failover; promotes backup nodes when primaries fail
 - Handles multiple simultaneous failures gracefully
 - Real-time cluster status reporting every 5 seconds
 - Critical alerting when no backup nodes remain
 
 ## Technologies
 - Python 3.10+
-- asyncio — concurrent heartbeat monitoring
-- Object-oriented design — Node, Monitor, FailoverManager
+- asyncio; concurrent heartbeat monitoring
+- Object-oriented design; Node, Monitor, FailoverManager
 
 ## Run
 ```bash
